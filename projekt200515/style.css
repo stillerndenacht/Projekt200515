@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/mistelei_web1.jpg);
+  background-attachment: fixed; /*das hat ja vielleicht gedauert, eh ich diese Funktion hatte, die das Wachsen und Beschneiden des Bildes so macht wie ich das will*/
+  height: 210vmin; /*scheinbar macht es keinen Unterschied ob heigth festgelegt ist oder nicht, aber W3school sagt man braucht es*/
+  background-color: black;
+  background-clip: border-box;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: chartreuse;
+}
+img {
+  width: 100%;
+}
+div {
+  background-color: lightblue;
+}
+footer {
+  background-color: hotpink;
+}
