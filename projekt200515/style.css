@@ -23,6 +23,8 @@ img {
   text-shadow: black 5px 3px 5px;
   color: white;
   text-align: center;
+  font-family: 'Scope One', serif;
+  font-weight: bold;
   font-size: 5vh;
 }
 #keinkreis {
@@ -30,15 +32,18 @@ img {
   height: 50vh;
   position: relative;
   color: white;
-  transform: translate(40%, 50%);
+  transform: translate(20%, 50%);
 }
 #einkreis {
   display: block;
   width: 50vh;
   height: 50vh;
+  padding-inline-end: 50vh;
   position: absolute;
   transform: translate(0%, 0%);
   text-align: center;
+  text-decoration: none;
+  line-break: none;
   border-radius: 50%;
   box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
   transition: 0.1s;
@@ -51,7 +56,9 @@ img {
   width: 40vh;
   height: 40vh;
   position: absolute;
+  padding-inline-end: 40vh;
   text-align: center;
+  text-decoration: none;
   transform: translate(5vh, 5vh);
   border-radius: 50%;
   box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
@@ -65,7 +72,9 @@ img {
   width: 30vh;
   height: 30vh;
   position: absolute;
+  padding-inline-end: 30vh;
   text-align: center;
+  text-decoration: none;
   transform: translate(10vh, 10vh);
   border-radius: 50%;
   box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
@@ -80,6 +89,7 @@ img {
   height: 20vh;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   transform: translate(15vh, 15vh);
   border-radius: 50%;
   box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
@@ -87,7 +97,7 @@ img {
   background-color: ghostwhite;
   color: transparent;
   opacity: 0.4;
-  padding: 4vh;
+  padding: 3vh;
 }
 #einkreis:hover {
   opacity: 0.7;
